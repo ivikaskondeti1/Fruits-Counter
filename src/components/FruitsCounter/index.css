@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  padding: 10px;
+  background-color: #ffd569;
+}
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+  padding: 3%;
+  background-color: #ffffff;
+}
+.imageCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  height: 350px;
+  width: 350px;
+}
+
+button {
+  border: 2px;
+  border-style: solid;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+span {
+  color: #ffd569;
+}
